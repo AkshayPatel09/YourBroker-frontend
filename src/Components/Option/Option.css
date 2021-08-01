@@ -1,0 +1,45 @@
+.option-padding{
+    padding: 20px;
+}
+
+.option-heading{
+    /* color: orange; */
+    font-family: 'Bebas Neue', cursive;
+}
+
+.option-font{
+    font-family: 'Alegreya', serif;
+}
+
+.search-box{
+    position: relative;
+    top:13px;
+    padding-left:15px ;
+    padding-right: 15px;
+    /* left:50%; */
+    margin: auto;
+    border-radius: 15px;
+    border-color: orange;
+    width: 240px;
+}
+
+.search-box:focus{
+    /* border-color: white; */
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ }

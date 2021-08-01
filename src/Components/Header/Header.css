@@ -1,0 +1,58 @@
+.Header-section{
+    background-color: orange;
+    margin:auto 0;
+    /* background-image: linear-gradient(15deg, orange, white); */
+    
+}
+
+.header-top{
+    padding: 10px;
+}
+
+#header-title{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 5.5rem;
+    /* padding: 1.5rem; */
+    padding: 0 1.5rem;
+    margin-right: 25px;
+    
+    
+}
+
+
+
+.Header-intro{
+    position: relative;
+    margin: auto;
+    width: 80%;
+    padding: 10% 0;
+    color: white;
+    font-size: 1.4em;
+    font-family: 'Alegreya', serif;
+}
+
+.btn-custom{
+    background-color: white;
+    color: orange;
+    width: 125px;
+    border: 1px solid orange;
+    border-radius: 10px;
+
+    margin: 8%;
+    margin-top: 10%;
+}
+.btn-custom:hover{
+    background-color: orange;
+    color: white;
+    border-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,15 @@
+.cut-section{
+    background-color:orange;
+    height: 100px;
+}
+.left-cut{
+    
+    /* background: linear-gradient(176deg, orange 50%,white 50%); */
+    background: linear-gradient(to right bottom, orange 49%, #fff 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+    
+    
+}
+
+.right-cut{
+    background: linear-gradient(to right bottom, white 49%,orange 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+}

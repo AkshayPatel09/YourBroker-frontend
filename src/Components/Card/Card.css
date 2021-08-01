@@ -1,0 +1,10 @@
+.card-img-size{
+    height: 200px;
+}
+
+.card-margin{
+    margin: 20px auto;
+}
+.card-margin:hover{
+    transform: scale(1.1);
+}

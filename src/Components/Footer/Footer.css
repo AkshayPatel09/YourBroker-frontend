@@ -1,0 +1,31 @@
+.footer{
+    background-color: rgba(0, 0, 0, 0.699);
+    color: white;
+    margin: 0;
+    font-family: 'Alegreya', serif
+}
+h2{
+    padding: 2% 0;
+}
+ul{
+    /* text-decoration: none; */
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+/* li{
+    text-align: left;
+} */
+h5{
+    font-weight: bolder;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.copyright p{
+    padding: 5px;
+    margin: 0;
+    font-size: .8rem;
+}

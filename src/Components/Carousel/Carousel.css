@@ -1,0 +1,40 @@
+.carousel-size{
+    font-family: 'Alegreya', serif;
+    width:80%;
+    /* height: 300px; */
+    position: relative;
+    margin: 3% auto;
+}
+.card-bg{
+    position: relative;
+    margin: 2% auto;
+    background-color: orange;
+    width: 80%;
+    color: white;
+    /* border-color: white; */
+    border: none;
+    text-align: center;
+}
+.carousel-bg{
+    /* position: relative; */
+    background-color: orange;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    margin: 4% auto;
+}
+.card-img{
+    position: relative;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    /* padding: 2%; */
+}
+.carousel-indi-spacing{
+    margin: 1rem;
+    margin-top: 0;
+}
+h1{
+    margin: 0;
+    margin-top: 10px;
+}

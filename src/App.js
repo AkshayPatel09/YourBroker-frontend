@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import { Route, Switch, Link, Redirect, useLocation } from "react-router-dom";
+import "./App.css";
+import Header from "./Components/Header/Header";
+import Navbar from "./Components/Navbar/Navbar";
+import Option from "./Components/Option/Option";
+import Divider from "./Components/Divider/Divider";
+import Carousel from "./Components/Carousel/Carousel";
+import Footer from "./Components/Footer/Footer";
+import Form from "./Components/Form/Form";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Header />
+      
+      <Switch>
+        <Route exact path="/signin" component={Form}></Route>
+      </Switch>
+
+      <Divider type="Orange white" />
+      <Option title="For Rent" />
+      <Divider type="White Orange" />
+      <Option title="For Sale" />
+      <Divider type="Orange white" />
+      <Carousel />
+      <Footer />
     </div>
   );
 }
